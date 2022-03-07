@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/pedido.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="#menupasteles">Pasteles</a>
+        <a href="#menudecoraciones">Decoraciones</a>
+        <a href="pedido.html" target="_blank">Pedido</a>
+        <a href="pastelero.html" target="_blank">Pastelero</a>
+    </div>
+
+    <!--Barra de navegacion-->
+    <h1>Pedido</h1>
+    <form action="pedido.js">
+        <label for="nombre">Nombre</label> <br>
+        <input type="text" placeholder="Nombre" id="nombre" name="nombre"> <br>
+        <label for="direccion">Direccion</label> <br>
+        <input type="text" placeholder="Direccion" name="direccion" id="direccion"> <br>
+        <label for="correo">Correo electronico</label> <br>
+        <input type="text" placeholder="Correo electronico" name="correo" id="correo"> <br>
+        <label for="telefono">Telefono</label> <br>
+        <input type="text" placeholder="Telefono" name="telefono" id="telefono"> <br>
+        <label for="entrega">Fecha de entrega requerida</label> <br>
+        <input type="date" name="fechaentrega" id="fechaentrega"> <br>
+        <h2>Elige el sabor de tu pastel</h2>
+        <input type="checkbox" name="balam" id="balam" value="balam">
+        <label for="balam">Balam (Pastel de chocolate)</label> <br>
+        <input type="checkbox" name="kalam" id="kalam" value="kalam">
+        <label for="kalam">Kalam (Pastel de vainilla)</label> <br>
+        <input type="checkbox" name="kaab" id="kaab" value="kaab">
+        <label for="kaab">Kaab (Pastel de tres leches)</label> <br>
+        <input type="checkbox" name="pakuum" id="pakuum" value="pakuum">
+        <label for="pakuum">Pakuum (Pastel de Zanahoria)</label> <br>
+        <input type="checkbox" name="sakan" id="sakan" value="sakan">
+        <label for="sakan">Sakan (Pastel de queso de bola)</label> <br>
+        <input type="checkbox" name="chujuk" id="chujuk" value="chujuk">
+        <label for="chujuk">Chujuk (Pastel de guayaba)</label> <br>
+        <input type="checkbox" name="katum" id="katum" value="katum">
+        <label for="katum">Katum (Cheesecake)</label> <br>
+        <input type="checkbox" name="lagab" id="lagab" value="lagab">
+        <label for="lagab">Lagab (Pay de manzana)</label> <br> <br>
+        <h2>Elige la decoracion de tu pastel</h2>
+        <input type="checkbox" name="fondant" id="fondant" value="fondant">
+        <label for="fondant">Decoración 3d (Fondant)</label> <br>
+        <input type="checkbox" name="floral" id="floral" value="floral">
+        <label for="floral">Decoración floral</label> <br>
+        <input type="checkbox" name="drip" id="drip" value="drip">
+        <label for="drip">Decoración drip cake</label><br>
+        <input type="checkbox" name="fundido" id="fundido" value="fundido">
+        <label for="fundido">Chocolate fundido</label> <br>
+        <input type="checkbox" name="chantilly" id="chantilly" value="chantilly">
+        <label for="chantilly">Crema chantilly</label> <br>
+        <input type="checkbox" name="pastelera" id="pastelera" value="pastelera">
+        <label for="pastelera">Crema pastelera</label> <br> <br>
+        <label for="comentarios">¿Tienes alguna solicitud adicional?</label> <br>
+        <textarea name="comentarios" id="comentarios" rows="5" cols="50"></textarea> <br>
+        <button type="button">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+    <!--Seccion de contacto-->
+    <footer class="contacto">
+        <h2>Pastelería Xtabentun</h2>
+        <ul>
+            <li>Dirección: Calle 18 #12 Colonia Juárez CP 97112</li>
+            <li>Teléfono: 9992-44-32-22</li>
+            <li>Horario de atención: 9am - 8pm</li>
+        </ul>
+    </footer>
+
+    <br>
+
+</body>
+</html>
