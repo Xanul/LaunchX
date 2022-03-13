@@ -1,0 +1,477 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: var(--blueText);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--blue);
+}
+
+
+p {
+    color: var(--grey);
+    font-size: 1.14rem;
+    font-weight: 500;
+}
+
+:root {
+    --blue: #3555D3;
+    --blueText: #1F3E72;
+    --yellow: #FFD012;
+    --grey: #6D7B93;
+}
+
+#container {
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+/*NAV BAR STYLES*/
+#navbar {
+    background-color: rgba(231,243,252,0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 25px 0px;
+    
+}
+
+#logo{
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--grey);
+}
+
+.btn.hoax {
+    padding: 15px 20px;
+    background-color: var(--blue);
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.btn.hoax:hover {
+    transform: scale(1.05,1.05);
+}
+
+#introContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.titleIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.titleIntro p {
+    margin-left: -60px;
+}
+
+.introLogos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.introLogos > div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.introLogos i {
+    color: var(--yellow);
+    padding: 8px;
+    background-color: rgba(255,208,18,0.2);
+    border-radius: 10px;
+}
+
+.introLogos p {
+    color: var(--blueText);
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.schedule > div {
+    margin-right: 280px;
+    margin-top: 20px;
+}
+
+.scheduleText {
+    display: flex;
+    gap: 10px;
+}
+
+.scheduleText i{
+    color: var(--blue);
+    padding: 8px;
+    background-color: rgba(53,85,211,0.2);
+    border-radius: 10px;
+}
+
+.scheduleText p {
+    color: var(--blueText);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.scheduleBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.scheduleBox span{
+    font-weight: 650;
+    color: black;
+}
+
+.scheduleBox > div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.scheduleBox i {
+    color: var(--blue);
+    padding: 8px;
+    border-radius: 10%;
+    background-color: rgba(0,146,231,0.2);
+}
+
+.sheduleBtn a {
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.sheduleBtn a:hover {
+    transform: scale(1.04,1.04);
+}
+
+.introImage img {
+   max-width: 100%;
+   
+}
+
+
+
+#pharma img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#reasons {
+    display: grid;
+    grid-template-rows: 0.9fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.reasonsBoxx {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.reasonsBoxx > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.reasonsBoxx i {
+    color: var(--blue);
+    padding: 8px;
+    background-color: rgba(0,146,231,0.2);
+    border-radius: 10%;
+}
+
+.reasonsBoxx p {
+    font-weight: 700;
+    color: black;
+}
+
+.reasonsBoxx span {
+    font-weight: normal;
+    color: var(--grey);
+}
+
+#prep {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prepImage img {
+    max-width: 100%;
+    margin-top: 80px;
+}
+
+.prepText {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.prepMain {
+    display: grid;
+    grid-template-rows: 0.4fr 1fr;
+}
+
+.prepItems {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.item2 {
+    grid-row: 2/4;
+}
+
+.item2 p {
+    margin-right: 20px;
+}
+
+.item2 span {
+    font-weight: 300;
+}
+
+.prepItems > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.prepItems > div > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.prepItems i {
+    color: var(--blue);
+    padding: 8px;
+    background-color: rgba(0,146,231,0.2);
+    border-radius: 10px;
+}
+
+.item2 div i {
+    align-self: flex-start;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+.contactImage img {
+    max-width: 100%;
+}
+
+
+.contactText {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contactMain {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+}
+
+.contactBoxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 50px;
+}
+
+.contactBoxes > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 180px;
+    width: 280px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.contactBoxes div > div {
+    display: flex;
+    gap: 10px;
+}
+
+.contactBoxes div i {
+    align-self: flex-start;
+    padding: 8px;
+    color: var(--blue);
+    background-color: rgba(0,146,231,0.2);
+    border-radius: 10px;
+}
+
+.contactChat a {
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: rgb(216, 224, 245);
+    color: var(--blue);
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.contactCall a {
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: rgb(216, 224, 245);
+    color: var(--blue);
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.contactVideo a {
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: rgb(216, 224, 245);
+    color: var(--blue);
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.contactMessage a {
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: rgb(216, 224, 245);
+    color: var(--blue);
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+.contactBoxes > div > a:hover {
+    transform: scale(1.05,1.05);
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: var(--blue);
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+
+#footer {
+    display: grid;
+    grid-template-rows: 1fr 0.2fr;
+    background-color: rgb(238,243,255);
+}
+
+.footerMain {
+    display: flex;
+    justify-content: space-around;
+    height: 15rem;
+    padding-top: 40px;
+}
+
+.footerLinks {
+    display: flex;
+    gap: 60px;
+}
+
+.footerLinks > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footerLinks > div h2 {
+    color: var(--blueText);
+}
+
+.footerLinks > div a {
+    text-decoration: none;
+}
+
+.footerBot {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footerTerms {
+    display: flex;
+    gap: 30px;
+}
+
+.footerRights span {
+    font-weight: 300;
+    font-size: 12px;
+    
+}
