@@ -29,6 +29,7 @@ p {
     --grey: #6D7B93;
 }
 
+/*MAIN CONTAINER*/
 #container {
     width: 100vw;
     height: 100%;
@@ -47,12 +48,14 @@ p {
     
 }
 
+/*LOGO*/
 #logo{
     color: var(--blue);
     font-weight: 700;
     font-size: 1.5rem;
 }
 
+/*NAV LINKS*/
 .links {
     display: flex;
     justify-content: center;
@@ -80,6 +83,7 @@ p {
     transform: scale(1.05,1.05);
 }
 
+/*INTRO CONTAINER*/
 #introContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -211,6 +215,7 @@ p {
    
 }
 
+/*PHARMA SECTION*/
 #pharma {
     margin: 0 auto;
 }
@@ -221,6 +226,7 @@ p {
     
 }
 
+/*REASONS SECTION*/
 #reasons {
     display: grid;
     grid-template-rows: 0.9fr 1fr;
@@ -264,6 +270,7 @@ p {
     color: var(--grey);
 }
 
+/*PREP SECTION*/
 #prep {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -336,6 +343,7 @@ p {
     align-self: flex-start;
 }
 
+/*CONTACT SECTION*/
 #contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -445,6 +453,7 @@ p {
     box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
 }
 
+/*FOOTER SECTION*/
 #footer {
     display: grid;
     grid-template-rows: 1fr 0.2fr;
